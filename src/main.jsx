@@ -7,6 +7,5 @@ import Formulaire from './component/formulaire.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Formulaire/>
-  
   </StrictMode>,
 )
