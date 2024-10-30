@@ -1,7 +1,7 @@
 import Formulaire from "./component/formulaire"
 
 
-export default function App() {
+function App() {
   return (
     <>
     <Formulaire/>
@@ -9,3 +9,4 @@ export default function App() {
 
   )
 }
+export default App
