@@ -1,4 +1,4 @@
-export default function TableauUtilisateur({ utilisateurs, onDelete, onEdit, onView }) {
+ function TableauUtilisateur({ utilisateurs, onDelete, onEdit, onView }) {
     return (
       <>
         <h1 className="text-center text-2xl font-bold mb-4">Utilisateurs</h1>
@@ -58,3 +58,5 @@ export default function TableauUtilisateur({ utilisateurs, onDelete, onEdit, onV
     );
   }
   
+
+  export default TableauUtilisateur

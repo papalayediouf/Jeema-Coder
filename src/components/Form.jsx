@@ -1,8 +1,10 @@
 
 
 import { Component } from "react";
-import TableauUtilisateur from "./component/tableauUtilisateur";
-import Modal from "./component/Modal";
+import Modal from "./Modal";
+import TableauUtilisateur from "./tableauUtilisateur"; 
+
+
 
 class Form extends Component {
   constructor(props) {
