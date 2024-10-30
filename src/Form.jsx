@@ -1,10 +1,8 @@
 
 
 import { Component } from "react";
-import Modal from "./Modal";
-import Tableau from "./Tableau"; 
-
-
+import TableauUtilisateur from "./components/Tableau";
+import Modal from "./components/Modal";
 
 class Form extends Component {
   constructor(props) {
@@ -192,7 +190,7 @@ class Form extends Component {
         </div>
 
         <div className="container max-w-full overflow-x-auto mt-6">
-          <Tableau
+          <TableauUtilisateur
             utilisateurs={utilisateurs}
             onDelete={this.handleDelete}
             onEdit={this.handleEdit}
