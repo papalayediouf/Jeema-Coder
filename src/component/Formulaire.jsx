@@ -2,7 +2,7 @@ import { Component } from "react";
 import TableauUtilisateur from "./tableauUtilisateur";
 import Modal from "./Modal";
 
-class Formulaire extends Component {
+class MonFormulaire extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -201,4 +201,4 @@ class Formulaire extends Component {
   }
 }
 
-export default Formulaire;
+export default MonFormulaire;
