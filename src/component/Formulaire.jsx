@@ -1,6 +1,6 @@
 import { Component } from "react";
 import TableauUtilisateur from "./tableauUtilisateur";
-import Modal from "./Modal"; // Assurez-vous d'avoir ce composant Modal
+import Modal from "./Modal";
 
 class Formulaire extends Component {
   constructor(props) {

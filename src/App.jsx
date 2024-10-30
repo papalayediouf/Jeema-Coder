@@ -1,11 +1,11 @@
-import Formulaire from "./component/formulaire"
+ import Formulaire from "./component/Formulaire"
 
 
 function App() {
   return (
-    <>
+    
     <Formulaire/>
-    </>
+ 
 
   )
 }
